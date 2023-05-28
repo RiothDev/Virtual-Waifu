@@ -16,9 +16,23 @@
 
 + [OpenAI API key](https://platform.openai.com/account/api-keys)
 + [Elevenlabs API key](https://beta.elevenlabs.io/subscription)
++ [VTube Studio](https://denchisoft.com)
++ [VTube Studio audio plugin](https://lualucky.itch.io/vts-desktop-audio-plugin) (Recommended)
 + Windows 7 or above
 
 # 📖 Instructions
+
++ Install python from its [website](https://www.python.org)
++ Open the "Install.bat" file to install all dependencies
++ Fill the .env file with the following information
+```
+OAI_API_KEY=Your OpenAI API key here
+EL_API_KEY=Your Elevenlabs API key here
+VOICE=Your Elevenlabs voice ID here
+DEBUG=True or False if you want to obtain additional information in case of error
+```
++ Open VTube Studio and activate your plugin to be able to use desktop audio (Remember to set it to move the 3D model's mouth based on the audio) (I recommend this [tutorial](https://youtu.be/IiZ0JrGd6BQ) to have a small introduction to the plugin that I recommended in the requirements)
++ Run the Main.py file and select the option you are looking for
 
 # 📄 Notes
 *🔧 This project is developed by a single high school student without much experience, so its development can be complicated.*
