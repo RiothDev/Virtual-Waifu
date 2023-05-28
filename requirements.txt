@@ -1,0 +1,8 @@
+requests
+colorama
+pytchat
+openai
+python-dotenv
+soundfile
+sounddevice
+pyttsx3
